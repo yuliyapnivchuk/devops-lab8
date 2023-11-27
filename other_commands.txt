@@ -1,0 +1,2 @@
+scp -i C:\Users\user\.ssh\it-step-instance-key.pem C:\Users\user\Documents\lab8\site.info ubuntu@ec2-3-83-131-190.compute-1.amazonaws.com:/tmp 
+ssh -i C:\Users\user\.ssh\it-step-instance-key.pem ubuntu@ec2-3-83-131-190.compute-1.amazonaws.com "sudo mv /tmp/site.info /etc/ssl/"
